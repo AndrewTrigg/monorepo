@@ -1,4 +1,4 @@
-import { jsx } from 'react/jsx-runtime';
+import { jsxs, jsx } from 'react/jsx-runtime';
 import MUIButton from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -45,7 +45,7 @@ var useStyles = makeStyles({
 function PrimaryButton(_a) {
     var children = _a.children, disabled = _a.disabled;
     var classes = useStyles();
-    return jsx(MUIButton, __assign({ className: classes.root, disabled: disabled, variant: "outlined" }, { children: children }), void 0);
+    return jsxs(MUIButton, __assign({ className: classes.root, disabled: disabled, variant: "outlined" }, { children: [children, "Matthew This actually works fantastic"] }), void 0);
 }
 function SecondaryButton(_a) {
     var children = _a.children, _b = _a.disabled, disabled = _b === void 0 ? false : _b;

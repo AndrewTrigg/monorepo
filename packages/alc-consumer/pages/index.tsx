@@ -1,8 +1,9 @@
 import React from 'react'
+import { PrimaryButton } from 'alc-components'
 
 function HomePage(){
     return (
-        <div>Home Sweet Home</div>
+        <div><PrimaryButton />hello Home Sweet Home</div>
     )
 }
 

@@ -44,7 +44,7 @@ function PrimaryButton ({children, disabled}: ButtonProps) {
         className={classes.root}
         disabled={disabled} 
         variant="outlined"
-    >{children}</MUIButton>
+    >{children}Will this go to both repos</MUIButton>
 }
 
 function SecondaryButton ({children, disabled = false}: ButtonProps) {
