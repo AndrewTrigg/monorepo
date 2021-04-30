@@ -1,6 +1,9 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "push-subtree": "git subtree push --prefix packages/alc-components https://github.com/AndrewTrigg/alc-components master"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },
